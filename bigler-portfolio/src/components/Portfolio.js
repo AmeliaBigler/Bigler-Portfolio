@@ -1,7 +1,6 @@
 import React from 'react';
 // import Project from './Project';
-// import Navigation from './Navigation';
-// import Header from './Header';
+import Header from './Header';
 import Footer from './Footer';
 
 // const project1 = {};
@@ -15,6 +14,7 @@ function Portfolio() {
     
     return  (
         <div>
+            <Header />
             <Footer />
         </div>
     );
