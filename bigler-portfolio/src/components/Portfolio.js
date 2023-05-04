@@ -1,23 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import Project from './Project';
 import Header from './Header';
 import Footer from './Footer';
+import AboutMe from './sections/AboutMe';
+import Portfolio from './sections/Portfolio';
+import Contact from './sections/Contact';
+import Resume from './sections/Resume';
 
-// const project1 = {};
-// const project2 = {};
-// const project3 = {};
-// const project4 = {};
-// const project5 = {};
-// const project6 = {};
+function PortfolioApp() {
+    const [currentPage, setCurrentPage] = useState('AboutMe');
 
-function Portfolio() {
-    
+    const renderPage = () => {
+        if (currentPage === 'AboutMe') {
+          return <AboutMe />;
+        }
+        if (currentPage === 'Portfolio') {
+          return <Portfolio />;
+        }
+        if (currentPage === 'Contact') {
+          return <Contact />;
+        }
+        return <Resume />;
+    };
+
+    const handlePageChange = (page) => setCurrentPage(page);
+
     return  (
         <div>
-            <Header />
+            <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+            {renderPage()}
             <Footer />
         </div>
     );
 }
 
-export default Portfolio;
+export default PortfolioApp;
