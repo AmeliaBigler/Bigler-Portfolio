@@ -1,12 +1,16 @@
 import React from 'react';
+import Project from '../Project';
+import MyProjects from '../MyProjects';
 
 export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio</h1>
-      <p>
-        Here's some of my projects
-      </p>
+      <div className='container'>
+        <div className='row'>
+          <Project project={MyProjects}/>
+        </div>
+      </div>
     </div>
   );
 }

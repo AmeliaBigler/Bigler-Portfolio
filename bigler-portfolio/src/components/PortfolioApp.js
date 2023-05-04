@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import Project from './Project';
 import Header from './Header';
 import Footer from './Footer';
 import AboutMe from './sections/AboutMe';
@@ -28,7 +27,9 @@ function PortfolioApp() {
     return  (
         <div>
             <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
-            {renderPage()}
+            <div className='section-content'>
+                {renderPage()}
+            </div>
             <Footer />
         </div>
     );

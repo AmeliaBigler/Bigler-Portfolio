@@ -1,11 +1,10 @@
-// import logo from './logo.svg';
-import Portfolio from './components/Portfolio';
+import PortfolioApp from './components/PortfolioApp';
 import './App.css';
 
 function App() {
   return (
     <div className="portfolio-app">
-      <Portfolio />
+      <PortfolioApp />
     </div>
   );
 }
