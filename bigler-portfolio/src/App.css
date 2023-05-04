@@ -1,22 +1,73 @@
-.App {
-  text-align: center;
+:root {
+  --licorice: #13070cff;
+  --space-cadet: #251f47ff;
+  --glaucous: #7180b9ff;
+  --tea-green: #c4d6b0ff;
+  --snow: #f7f0f0ff;
 }
 
 .App-header {
-  background-color: #a6b8db;
+  background-color: var(--licorice);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--snow);
 }
 
-#footer {
-   position:fixed;
-   left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
-   background-color:#a6b8db;
+.nav-tabs {
+  background-color: var(--space-cadet);
+}
+
+.nav-tabs a {
+  color: var(--snow);
+}
+
+.nav-tabs a:hover {
+  color: var(--glaucous);
+}
+
+.section-content {
+  color: var(--space-cadet);
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  display: flex;
+  justify-content: space-evenly;
+  height: fit-content;
+  width:100%;
+  background-color: var(--licorice);
+}
+
+footer a {
+  color: var(--glaucous);
+}
+
+footer a:hover {
+  color: var(--snow);
+}
+
+.card {
+  padding: 0% !important;
+}
+
+.card-body {
+  background-color: var(--snow);
+  border-color: var(--glaucous);
+}
+
+.card-body .btn-primary {
+  border-color: var(--licorice);
+  background-color: var(--snow);
+  color: var(--space-cadet);
+  margin: 1rem;
+}
+
+.card-body .btn-primary:hover {
+  background-color: var(--tea-green);
+  border-color: var(--licorice);
 }
