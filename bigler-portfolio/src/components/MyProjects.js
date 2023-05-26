@@ -17,12 +17,12 @@ const myProjects = [
         githubRepo: "https://github.com/AmeliaBigler/optimistic-lepidoptera",
         // screenshot:
     },
-    // {
-    //     name:,
-    //     deployedLink:,
-    //     githubRepo:,
-    //     screenshot:
-    // },
+    {
+        name:"Pantry Pals",
+        deployedLink: "https://pantry-pals.herokuapp.com/" ,
+        githubRepo: "https://github.com/Cyril1743/Pantry-Pals",
+        // screenshot:
+    },
     // {
     //     name:,
     //     deployedLink:,
