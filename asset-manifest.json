@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Bigler-Portfolio/static/css/main.d3ca31bd.css",
-    "main.js": "/Bigler-Portfolio/static/js/main.b95ead5f.js",
+    "main.js": "/Bigler-Portfolio/static/js/main.40d8af44.js",
     "static/js/787.70dab644.chunk.js": "/Bigler-Portfolio/static/js/787.70dab644.chunk.js",
     "index.html": "/Bigler-Portfolio/index.html",
     "main.d3ca31bd.css.map": "/Bigler-Portfolio/static/css/main.d3ca31bd.css.map",
-    "main.b95ead5f.js.map": "/Bigler-Portfolio/static/js/main.b95ead5f.js.map",
+    "main.40d8af44.js.map": "/Bigler-Portfolio/static/js/main.40d8af44.js.map",
     "787.70dab644.chunk.js.map": "/Bigler-Portfolio/static/js/787.70dab644.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3ca31bd.css",
-    "static/js/main.b95ead5f.js"
+    "static/js/main.40d8af44.js"
   ]
 }
