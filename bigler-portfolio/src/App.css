@@ -33,7 +33,7 @@
 }
 
 footer {
-  position:fixed;
+  position: fixed;
   left:0px;
   bottom:0px;
   display: flex;
@@ -51,10 +51,6 @@ footer a:hover {
   color: var(--snow);
 }
 
-.card {
-  padding: 0% !important;
-}
-
 .card-body {
   background-color: var(--snow);
   border-color: var(--glaucous);
@@ -70,4 +66,25 @@ footer a:hover {
 .card-body .btn-primary:hover {
   background-color: var(--tea-green);
   border-color: var(--licorice);
+}
+
+#portfolio-div {
+  padding-bottom: 2rem;
+}
+
+span a {
+  color: var(--glaucous);
+}
+
+#bio {
+  background-color: var(--snow);
+  margin: 1rem 1rem 3rem 1rem;
+  padding: 1rem;
+  border-width: 10px;
+  border-radius: 10px;
+  border-color: var(--glaucous);
+}
+
+.card-text {
+  margin-bottom: 0;
 }
