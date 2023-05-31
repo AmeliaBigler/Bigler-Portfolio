@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Bigler-Portfolio/static/css/main.06dd2e1b.css",
-    "main.js": "/Bigler-Portfolio/static/js/main.fa72ba63.js",
+    "main.css": "/Bigler-Portfolio/static/css/main.33df50b0.css",
+    "main.js": "/Bigler-Portfolio/static/js/main.c9f6e606.js",
     "static/js/787.70dab644.chunk.js": "/Bigler-Portfolio/static/js/787.70dab644.chunk.js",
+    "static/media/AB2023.pdf": "/Bigler-Portfolio/static/media/AB2023.77a99a14c4dfc09d3f7e.pdf",
     "index.html": "/Bigler-Portfolio/index.html",
-    "main.06dd2e1b.css.map": "/Bigler-Portfolio/static/css/main.06dd2e1b.css.map",
-    "main.fa72ba63.js.map": "/Bigler-Portfolio/static/js/main.fa72ba63.js.map",
+    "main.33df50b0.css.map": "/Bigler-Portfolio/static/css/main.33df50b0.css.map",
+    "main.c9f6e606.js.map": "/Bigler-Portfolio/static/js/main.c9f6e606.js.map",
     "787.70dab644.chunk.js.map": "/Bigler-Portfolio/static/js/787.70dab644.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06dd2e1b.css",
-    "static/js/main.fa72ba63.js"
+    "static/css/main.33df50b0.css",
+    "static/js/main.c9f6e606.js"
   ]
 }
