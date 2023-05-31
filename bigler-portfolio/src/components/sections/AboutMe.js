@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <div>
       <h1>About Me</h1>
-      <div id="bio">
+      <div className="content">
         <p>
           Hi there! I'm a born-and-raised midwesterner, with a passion for STEM and coding.
         </p>

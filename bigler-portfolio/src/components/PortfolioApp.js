@@ -4,6 +4,7 @@ import Footer from './Footer';
 import AboutMe from './sections/AboutMe';
 import Portfolio from './sections/Portfolio';
 import Contact from './sections/Contact';
+import Resume from './sections/Resume';
 
 function PortfolioApp() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -15,7 +16,10 @@ function PortfolioApp() {
         if (currentPage === 'Portfolio') {
           return <Portfolio />;
         }
-        return <Contact />;
+        if (currentPage === 'Contact') {
+            return <Contact />;
+          }
+        return <Resume />;
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
