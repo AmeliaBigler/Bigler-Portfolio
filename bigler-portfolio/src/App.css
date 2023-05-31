@@ -60,7 +60,6 @@ footer a:hover {
 
 .card-body {
   background-color: var(--snow);
-  border-color: var(--glaucous);
 }
 
 .card-body .btn-primary {
@@ -84,13 +83,14 @@ span a {
   color: var(--glaucous);
 }
 
-#bio {
+.content {
   background-color: var(--snow);
   margin: 1rem 1rem 3rem 1rem;
   padding: 1rem;
-  border-width: 10px;
-  border-radius: 10px;
-  border-color: var(--glaucous);
+  border-radius: 0.375rem;
+  border-color: var(--bs-border-color-translucent);
+  border-width: 1px;
+  border-style: solid;
 }
 
 .card-text {
